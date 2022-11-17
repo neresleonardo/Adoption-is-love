@@ -11,7 +11,7 @@ interface IThemeToggleFooterProps {
 export const Container = styled.div<IContainerProps>`
     grid-area: AS;
     
-    background-color: #4e57e3;
+    background-color: #0e1214;
     padding-left: 20px;
     position: relative;
     @media(max-width: 600px){
