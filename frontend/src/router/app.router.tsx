@@ -1,9 +1,16 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom'; 
-import SignIn from '../pages/SignIn';
+import { Route, Routes } from 'react-router-dom';
+import Layout from '../components/Layout';
+import Dash from '../pages/Dash';
+
+
 
 const AppRoutes: React.FC = () => (
-    <div></div>
+    <Layout>
+        <Routes>
+            <Route path="/" element={<Dash/>} />
+        </Routes>
+    </Layout>
 );
 
 export default AppRoutes;
